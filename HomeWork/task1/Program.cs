@@ -1,1 +1,1 @@
-﻿Console.WriteLine("Введите два числа");
+﻿Console.WriteLine("введите два числа");
