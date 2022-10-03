@@ -2,15 +2,13 @@
 int a = Convert.ToInt32(Console.ReadLine());
 int b = Convert.ToInt32(Console.ReadLine());
 int c = Convert.ToInt32(Console.ReadLine());
-if (a>b||a>c)
+int max = a;
+if (b>max)
 {
-    System.Console.WriteLine("больше {a}");
+    max=b;
 }
-else if (a<b||b>c)
+if (c>max)
 {
-    System.Console.WriteLine("больше {b}");
+    max=c;
 }
-else if (b<c||c>a)
-{
-    System.Console.WriteLine("больше {c}");
-}
+System.Console.WriteLine("максимальное число ->" + max);
